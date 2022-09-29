@@ -10,7 +10,7 @@ var Stats = function () {
 	var frames = 0, mode = 0;
 
 
-	
+
 	var container = document.createElement( 'div' );
 	container.id = 'stats';
 	container.addEventListener( 'mousedown', function ( event ) { event.preventDefault(); setMode( ++ mode % 2 ) }, false );
@@ -123,7 +123,7 @@ var Stats = function () {
 				fpsMax = Math.max( fpsMax, fps );
 
 				fpsText.textContent = fps + ' FPS (' + fpsMin + '-' + fpsMax + ')';
-				updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 100 ) * 30 ) );
+				updateGraph( fpsGraph, Math.min( 30, 30 - ( fps / 1000 ) * 30 ) );
 
 				prevTime = time;
 				frames = 0;
