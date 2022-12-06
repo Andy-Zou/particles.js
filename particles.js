@@ -77,7 +77,7 @@ var pJS = function(tag_id, params){
         direction: 'none33345',
         random: false,
         straight: false,
-        out_mode: 'out333',
+        out_mode: 'out333ddd',
         bounce: false,
         attract: {
           enable: false,
@@ -88,7 +88,7 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: 'canvas',
+      detect_on: 'canvadddd',
       events: {
         onhover: {
           enable: true,
