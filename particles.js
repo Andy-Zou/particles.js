@@ -88,7 +88,7 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: 'canvadddd',
+      detect_on: 'canvdd',
       events: {
         onhover: {
           enable: true,
