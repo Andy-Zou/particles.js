@@ -77,7 +77,7 @@ var pJS = function(tag_id, params){
         direction: 'none',
         random: false,
         straight: false,
-        out_mode: 'out3ddd',
+        out_mode: 'out3',
         bounce: false,
         attract: {
           enable: false,
