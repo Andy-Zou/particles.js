@@ -96,7 +96,7 @@ var pJS = function(tag_id, params){
         },
         onclick: {
           enable: true,
-          mode: 'push22222223'
+          mode: 'push223'
         },
         resize: true
       },
